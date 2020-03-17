@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 1.0.2 - 2020-03-17
+
+### Added
+
+- Added `addSubscriber` method
+- Added `removeSubscriber` method
+
 ## 1.0.0 - 2020-03-17
 
 - initial release
