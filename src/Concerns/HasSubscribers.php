@@ -22,4 +22,18 @@ trait HasSubscribers
     {
         return $this->morphMany(Config::get('subscribers.models.subscriber'), 'subscribable');
     }
+
+    public function addSubscriber(string $email): void
+    {
+        $this->subscribers()->updateOrCreate(compact('email'));
+    }
+
+    public function removeSubscriber(string $email): void
+    {
+        $subscriber = $this->subscribers()->where(compact('email'))->firstOrFail();
+
+        if ($subscriber) {
+            $subscriber->delete();
+        }
+    }
 }
