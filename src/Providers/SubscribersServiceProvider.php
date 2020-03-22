@@ -30,7 +30,7 @@ class SubscribersServiceProvider extends ServiceProvider
             ], 'config');
 
             $this->publishes([
-                __DIR__.'/../database/migrations/' => $this->app->databasePath('migrations'),
+                __DIR__.'/../../database/migrations/' => $this->app->databasePath('migrations'),
             ], 'migrations');
         }
     }
