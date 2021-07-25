@@ -3,20 +3,20 @@
 declare(strict_types=1);
 
 /*
- * This file is part of kodekeep/laravel-subscribers.
+ * This file is part of konceiver/laravel-subscribers.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Subscribers\Tests;
+namespace Konceiver\Subscribers\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\WithFaker;
-use KodeKeep\Subscribers\Providers\SubscribersServiceProvider;
-use KodeKeep\Subscribers\Tests\Unit\ClassThatHasSubscribers;
+use Konceiver\Subscribers\Providers\SubscribersServiceProvider;
+use Konceiver\Subscribers\Tests\Unit\ClassThatHasSubscribers;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

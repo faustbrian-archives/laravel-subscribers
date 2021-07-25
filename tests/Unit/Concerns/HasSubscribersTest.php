@@ -3,23 +3,23 @@
 declare(strict_types=1);
 
 /*
- * This file is part of kodekeep/laravel-subscribers.
+ * This file is part of konceiver/laravel-subscribers.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Subscribers\Tests\Unit\Concerns;
+namespace Konceiver\Subscribers\Tests\Unit\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;
-use KodeKeep\Subscribers\Tests\TestCase;
+use Konceiver\Subscribers\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Subscribers\Concerns\HasSubscribers
+ * @covers \Konceiver\Subscribers\Concerns\HasSubscribers
  */
 class HasSubscribersTest extends TestCase
 {

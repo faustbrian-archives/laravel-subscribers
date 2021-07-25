@@ -1,18 +1,18 @@
 # Laravel Subscribers
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-subscribers)](https://packagist.org/packages/kodekeep/laravel-subscribers)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-subscribers)](https://packagist.org/packages/kodekeep/laravel-subscribers)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-subscribers/run-tests?subscriber=tests)](https://github.com/kodekeep/laravel-subscribers/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-subscribers)](https://codeclimate.com/github/kodekeep/laravel-subscribers)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-subscribers)](https://codeclimate.com/github/kodekeep/laravel-subscribers)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-subscribers)](https://packagist.org/packages/kodekeep/laravel-subscribers)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-subscribers)](https://packagist.org/packages/konceiver/laravel-subscribers)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-subscribers)](https://packagist.org/packages/konceiver/laravel-subscribers)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-subscribers/run-tests?subscriber=tests)](https://github.com/konceiver/laravel-subscribers/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-subscribers)](https://codeclimate.com/github/konceiver/laravel-subscribers)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-subscribers)](https://codeclimate.com/github/konceiver/laravel-subscribers)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-subscribers)](https://packagist.org/packages/konceiver/laravel-subscribers)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides associations for subscribers and Laravel Eloquent Models.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-subscribers
+composer require konceiver/laravel-subscribers
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
